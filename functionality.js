@@ -9,6 +9,7 @@ class UI {
     this.itemID = 0;
     }
 
+//METHODS   
     submitForm() {
         let inputValue = document.getElementById('text-input').value;
         let textInput = {
@@ -52,8 +53,8 @@ class UI {
         this.itemList = tempText;
     }
     
-    deleteText(element) {
-//STILL IN PROCESS
+    deleteText(element) {   //<<STILL IN PROCESS>>
+        
     }
 }
 
