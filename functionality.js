@@ -39,6 +39,7 @@ class UI {
     }
 
     editText(element) {
+//SOMETHING HERE IS WRONG  
         let id = parseInt(element.dataset.id);
         this.list.remove(element);
         let text = this.itemList.filter(function(item) {
@@ -52,7 +53,7 @@ class UI {
     }
     
     deleteText(element) {
-
+//STILL IN PROCESS
     }
 }
 
