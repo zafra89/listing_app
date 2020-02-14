@@ -1,0 +1,88 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    background-color: rgb(253, 211, 159);
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    color:rgb(0, 94, 39);
+    font-weight: bolder;
+}
+
+body {
+    font-size:33px;
+}
+
+input {
+    width: 17em;
+    height: 1.5em;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 94, 39);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: rgb(0, 94, 39);;
+}
+
+::placeholder {
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+}
+
+.button {
+    font-size: 22px;
+    background-color: white;
+    color: rgb(0, 94, 39);
+    border: 2px solid rgb(0, 94, 39);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+    background-color: rgb(0, 94, 39);
+    color: white;
+  }
+  
+  .list-title {
+      color: rgb(0, 94, 39);
+  }
+
+  .edit-icon {
+    font-size: 17px;
+    background-color: white;
+    color: rgb(0, 94, 39);
+    border: 2px solid rgb(0, 94, 39);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .edit-icon:hover {
+    background-color: rgb(0, 94, 39);
+    color: white;
+  }
+
+  .delete-icon {
+    font-size: 17px;
+    background-color: white;
+    color: rgb(0, 94, 39);
+    border: 2px solid rgb(0, 94, 39);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .delete-icon:hover {
+    background-color: rgb(0, 94, 39);
+    color: white;
+  }
+
+  .error-div {
+    background-color: rgb(231, 0, 0);
+  }
+
+  .error-message {
+    font-size:30px;
+  }
