@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Listing App</title>
+        <script type="text/javascript" src="functionality.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <h1>Add/Delete list</h1>
+        <div id='error-placing'>
+        <!--Here goes the error message-->
+        </div>
+    </head>
+    <body>
+        <form id='form' class='form'>
+            <label>
+                <input type='text' id='text-input' placeholder='Type what you want to be listed'>
+            </label>
+            <button type='submit' id='submit-btn' class='button'>Add to list</button>
+            <button id='reset-btn' class='button'>Clear</button>
+            <button id='reset-list' class='button'>Reset list</button>
+        </form>
+        <div id='list'>
+        <!--Here goes the listings-->
+        </div>
+    </body>
+</html>
